@@ -1,28 +1,33 @@
-# React + TypeScript + Vite
+# ViteJS React DDD Template 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Un template super-carico per avviare progetti React con ViteJS, tutto impostato con una struttura Domain-Driven Design (DDD).
 
-Currently, two official plugins are available:
+## Caratteristiche ✨
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🎛 **ViteJS**: Goditi la velocità fulminea di Vite.
+- ⚛️ **React**: La nostra libreria UI di scelta.
+- 📜 **TypeScript**: Ottieni tipizzazione statica in React.
+- 🚄 **SWC**: Trasformatore di codice sorgente super-veloce.
+- 🌈 **NextUI**: Design moderno e componenti eleganti per la tua UI.
+- 📝 **React Final Form**: Gestisci le tue form con semplicità e potenza.
+- 🧭 **React Router Dom**: Navigazione e routing per le tue applicazioni React.
+- ⚛️🔗 **Recoil**: Gestisci lo stato globale con una soluzione atomica e leggera.
 
-## Expanding the ESLint configuration
+## Come iniziare 🚀
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+1. Clicca sul bottone "Use this template" nella pagina GitHub del template.
+2. Clona il tuo nuovo repository sul tuo locale.
+3. Installa le dipendenze con `npm install`.
+4. Avvia il progetto con `npm run dev` e goditi la magia! ✨
 
-- Configure the top-level `parserOptions` property like this:
+## Struttura del Progetto 📂
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+- `src/core`: Il cuore della tua applicazione: logica di business, entità, casi d'uso.
+- `src/infrastructure`: Dettagli tecnici e implementazioni, come servizi esterni.
+- `src/presentation`: Il layer della UI: componenti, pagine e stili.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
-# vitejs-nextui-starter
+## Contribuire 🤝
+
+Se trovi dei bug o vuoi aggiungere nuove funzionalità, non esitare a creare una pull request! Siamo sempre alla ricerca di miglioramenti.
+
+---
